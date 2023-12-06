@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Default",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "types": ["bun-types"]
+  },
+  "exclude": ["node_modules"]
+}
